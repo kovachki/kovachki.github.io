@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2021-09-30 07:59:00-0400
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I spoke at the workshop on <a href="https://www.newton.ac.uk/event/mdlw02/">Deep Learning and Inverse Problems</a> at the Isaac Newton Institute. 

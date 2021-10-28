@@ -1,72 +1,228 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@article{liu2022alearningbased,
+abbr = {JMPS},
+bibtex_show = {true},
+title = {A Learning-based Multiscale Method and its Application to Inelastic Impact Problems},
+journal = {Journal of the Mechanics and Physics of Solids},
+volume = {158},
+pages = {104668},
+year = {2022},
+issn = {0022-5096},
+html = {https://www.sciencedirect.com/science/article/pii/S0022509621002982},
+pdf = {https://arxiv.org/pdf/2102.07256.pdf},
+author = {Burigede Liu and Nikola B Kovachki and Zongyi Li and Kamyar Azizzadenesheli and Anima Anandkumar and Andrew M Stuart and Kaushik Bhattacharya},
+abstract = {The macroscopic properties of materials that we observe and exploit in engineering application result from complex interactions between physics at multiple length and time scales: electronic, atomistic, defects, domains etc. Multiscale modeling seeks to understand these interactions by exploiting the inherent hierarchy where the behavior at a coarser scale regulates and averages the behavior at a finer scale. This requires the repeated solution of computationally expensive finer-scale models, and often a priori knowledge of those aspects of the finer-scale behavior that affect the coarser scale (order parameters, state variables, descriptors, etc.). We address this challenge in a two-scale setting where we learn the fine-scale behavior from off-line calculations and then use the learnt behavior directly in coarse scale calculations. The approach builds on the recent success of deep neural networks by combining their approximation power in high dimensions with ideas from model reduction. It results in a neural network approximation that has high fidelity, is computationally inexpensive, is independent of the need for a priori knowledge, and can be used directly in the coarse scale calculations. We demonstrate the approach on problems involving the impact of magnesium, a promising light-weight structural and protective material.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@article{de2021convergence,
+  abbr = {arXiv},
+  bibtex_show = {true},
+  title={Convergence Rates for Learning Linear Operators from Noisy Data},
+  author={de Hoop, Maarten V and Kovachki, Nikola B and Nelsen, Nicholas H and Stuart, Andrew M},
+  journal={CoRR},
+  volume = {abs/2108.12515},
+  year={2021},
+  html={https://arxiv.org/abs/2108.12515},
+  pdf={https://arxiv.org/pdf/2108.12515.pdf},
+  abstract = {We study the Bayesian inverse problem of learning a linear operator on a Hilbert space from its noisy pointwise evaluations on random input data. Our framework assumes that this target operator is self-adjoint and diagonal in a basis shared with the Gaussian prior and noise covariance operators arising from the imposed statistical model and is able to handle target operators that are compact, bounded, or even unbounded. We establish posterior contraction rates with respect to a family of Bochner norms as the number of data tend to infinity and derive related lower bounds on the estimation error. In the large data limit, we also provide asymptotic convergence rates of suitably defined excess risk and generalization gap functionals associated with the posterior mean point estimator. In doing so, we connect the posterior consistency results to nonparametric learning theory. Furthermore, these convergence rates highlight and quantify the difficulty of learning unbounded linear operators in comparison with the learning of bounded or compact ones. Numerical experiments confirm the theory and demonstrate that similar conclusions may be expected in more general problem settings.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
+@article{kovachki2021neural,
+  abbr = {arXiv},
+  bibtex_show = {true},
+  title={Neural Operator: Learning Maps Between Function Spaces},
+  author={Kovachki, Nikola B and Li, Zongyi and Liu, Burigede and Azizzadenesheli, Kamyar and Bhattacharya, Kaushik and Stuart, Andrew and Anandkumar, Anima},
+  journal={CoRR},
+  volume = {abs/2108.08481},
+  year={2021},
+  html={https://arxiv.org/abs/2108.08481},
+  pdf={https://arxiv.org/pdf/2108.08481.pdf},
+  abstract={The classical development of neural networks has primarily focused on learning mappings between finite dimensional Euclidean spaces or finite sets. We propose a generalization of neural networks tailored to learn operators mapping between infinite dimensional function spaces. We formulate the approximation of operators by composition of a class of linear integral operators and nonlinear activation functions, so that the composed operator can approximate complex nonlinear operators. We prove a universal approximation theorem for our construction. Furthermore, we introduce four classes of operator parameterizations: graph-based operators, low-rank operators, multipole graph-based operators, and Fourier operators and describe efficient algorithms for computing with each one. The proposed neural operators are resolution-invariant: they share the same network parameters between different discretizations of the underlying function spaces and can be used for zero-shot super-resolutions. Numerically, the proposed models show superior performance compared to existing machine learning based methodologies on Burgers' equation, Darcy flow, and the Navier-Stokes equation, while being several order of magnitude faster compared to conventional PDE solvers.},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{li2021markov,
+  abbr = {arXiv},
+  bibtex_show = {true},
+  title={Markov Neural Operators for Learning Chaotic Systems},
+  author={Li, Zongyi and Kovachki, Nikola B and Azizzadenesheli, Kamyar and Liu, Burigede and Bhattacharya, Kaushik and Stuart, Andrew M and Anandkumar, Anima},
+  journal={CoRR},
+  volume = {abs/2106.06898},
+  year={2021},
+  html={https://arxiv.org/abs/2106.06898},
+  pdf={https://arxiv.org/pdf/2106.06898.pdf},
+  abstract={Chaotic systems are notoriously challenging to predict because of their instability. Small errors accumulate in the simulation of each time step, resulting in completely different trajectories. However, the trajectories of many prominent chaotic systems live in a low-dimensional subspace (attractor). If the system is Markovian, the attractor is uniquely determined by the Markov operator that maps the evolution of infinitesimal time steps. This makes it possible to predict the behavior of the chaotic system by learning the Markov operator even if we cannot predict the exact trajectory. Recently, a new framework for learning resolution-invariant solution operators for PDEs was proposed, known as neural operators. In this work, we train a Markov neural operator (MNO) with only the local one-step evolution information. We then compose the learned operator to obtain the global attractor and invariant measure. Such a Markov neural operator forms a discrete semigroup and we empirically observe that does not collapse or blow up. Experiments show neural operators are more accurate and stable compared to previous methods on chaotic systems such as the Kuramoto-Sivashinsky and Navier-Stokes equations.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{kovachki2021universal,
+  abbr = {arXiv},
+  bibtex_show = {true},
+  title={On Universal Approximation and Error Bounds for Fourier Neural Operators},
+  author={Kovachki, Nikola B and Lanthaler, Samuel and Mishra, Siddhartha},
+  journal={CoRR},
+  volume = {abs/2107.07562},
+  year={2021},
+  html={https://arxiv.org/abs/2107.07562},
+  pdf={https://arxiv.org/pdf/2107.07562.pdf},
+  abstract={Fourier neural operators (FNOs) have recently been proposed as an effective framework for learning operators that map between infinite-dimensional spaces. We prove that FNOs are universal, in the sense that they can approximate any continuous operator to desired accuracy. Moreover, we suggest a mechanism by which FNOs can approximate operators associated with PDEs efficiently. Explicit error bounds are derived to show that the size of the FNO, approximating operators associated with a Darcy type elliptic PDE and with the incompressible Navier-Stokes equations of fluid dynamics, only increases sub (log)-linearly in terms of the reciprocal of the error. Thus, FNOs are shown to efficiently approximate operators arising in a large class of PDEs.}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{kovachki2021multiscale,
+  abbr = {arXiv},
+  bibtex_show = {true},
+  title={Multiscale Modeling of Materials: Computing, Data Science, Uncertainty and Goal-oriented Optimization},
+  author={Kovachki, Nikola B and Liu, Burigede and Sun, Xingsheng and Zhou, Hao and Bhattacharya, Kaushik and Ortiz, Michael and Stuart, Andrew M},
+  journal={CoRR},
+  volume = {abs/2104.05918},
+  year={2021},
+  html={https://arxiv.org/abs/2104.05918},
+  pdf={https://arxiv.org/pdf/2104.05918.pdf},
+  abstract={The recent decades have seen various attempts at accelerating the process of developing materials targeted towards specific applications. The performance required for a particular application leads to the choice of a particular material system whose properties are optimized by manipulating its underlying microstructure through processing. The specific configuration of the structure is then designed by characterizing the material in detail, and using this characterization along with physical principles in system level simulations and optimization. These have been advanced by multiscale modeling of materials, high-throughput experimentations, materials data-bases, topology optimization and other ideas. Still, developing materials for extreme applications involving large deformation, high strain rates and high temperatures remains a challenge. This article reviews a number of recent methods that advance the goal of designing materials targeted by specific applications.}
 }
+
+@article{kovachki2020conditional,
+  abbr = {arXiv},
+  bibtex_show = {true},
+  title={Conditional Sampling with Monotone GANs},
+  author={Kovachki, Nikola B and Baptista, Ricardo and Hosseini, Bamdad and Marzouk, Youssef},
+  journal={CoRR},
+  volume = {abs/2006.06755},
+  year={2020},
+  html={https://arxiv.org/abs/2006.06755},
+  pdf={https://arxiv.org/pdf/2006.06755.pdf},
+  abstract={We present a new approach for sampling conditional probability measures, enabling consistent uncertainty quantification in supervised learning tasks. We construct a mapping that transforms a reference measure to the measure of the output conditioned on new inputs. The mapping is trained via a modification of generative adversarial networks (GANs), called monotone GANs, that imposes monotonicity and a block triangular structure. We present theoretical guarantees for the consistency of our proposed method, as well as numerical experiments demonstrating the ability of our method to accurately sample conditional measures in applications ranging from inverse problems to image in-painting.},
+  selected={true}
+}
+
+
+@inproceedings{li2021fourier,
+  abbr      = {ICLR},
+  bibtex_show = {true},
+  author    = {Zongyi Li and
+               Nikola B Kovachki and
+               Kamyar Azizzadenesheli and
+               Burigede Liu and
+               Kaushik Bhattacharya and
+               Andrew M Stuart and
+               Anima Anandkumar},
+  abstract  = {The classical development of neural networks has primarily focused on learning mappings between finite-dimensional Euclidean spaces. Recently, this has been generalized to neural operators that learn mappings between function spaces. For partial differential equations (PDEs), neural operators directly learn the mapping from any functional parametric dependence to the solution. Thus, they learn an entire family of PDEs, in contrast to classical methods which solve one instance of the equation. In this work, we formulate a new neural operator by parameterizing the integral kernel directly in Fourier space, allowing for an expressive and efficient architecture. We perform experiments on Burgers' equation, Darcy flow, and Navier-Stokes equation. The Fourier neural operator is the first ML-based method to successfully model turbulent flows with zero-shot super-resolution. It is up to three orders of magnitude faster compared to traditional PDE solvers. Additionally, it achieves superior accuracy compared to previous learning-based solvers under fixed resolution.},
+  title     = {Fourier Neural Operator for Parametric Partial Differential Equations},
+  booktitle = {9th International Conference on Learning Representations (ICLR)},
+  publisher = {OpenReview.net},
+  year      = {2021},
+  pdf       = {https://openreview.net/pdf?id=c8P9NQVtmnO},
+  html      = {https://arxiv.org/abs/2010.08895},
+  selected  = {true}
+}
+
+@inproceedings{li2020multipole,
+ abbr = {NeurIPS},
+ bibtex_show = {true},
+ author = {Li, Zongyi and Kovachki, Nikola B and Azizzadenesheli, Kamyar and Liu, Burigede and Stuart, Andrew M and Bhattacharya, Kaushik and Anandkumar, Anima},
+ booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+ editor = {H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin},
+ pages = {6755--6766},
+ publisher = {Curran Associates, Inc.},
+ title = {Multipole Graph Neural Operator for Parametric Partial Differential Equations},
+ pdf = {https://proceedings.neurips.cc/paper/2020/file/4b21cf96d4cf612f239a6c322b10c8fe-Paper.pdf},
+ html = {https://papers.nips.cc/paper/2020/hash/4b21cf96d4cf612f239a6c322b10c8fe-Abstract.html},
+ abstract = {One of the main challenges in using deep learning-based methods for simulating physical systems and solving partial differential equations (PDEs) is formulating physics-based data in the desired structure for neural networks. Graph neural networks (GNNs) have gained popularity in this area since graphs offer a natural way of modeling particle interactions and provide a clear way of discretizing the continuum models. However, the graphs constructed for approximating such tasks usually ignore long-range interactions due to unfavorable scaling of the computational complexity with respect to the number of nodes. The errors due to these approximations scale with the discretization of the system, thereby not allowing for generalization under mesh-refinement. Inspired by the classical multipole methods, we purpose a novel multi-level graph neural network framework that captures interaction at all ranges with only linear complexity. Our multi-level formulation is equivalent to recursively adding inducing points to the kernel matrix, unifying GNNs with multi-resolution matrix factorization of the kernel. Experiments confirm our multi-graph network learns discretization-invariant solution operators to PDEs and can be evaluated in linear time.},
+ volume = {33},
+ year = {2020}
+}
+
+@article{bhattacharya2021model,
+     abbr = {SMAI-JCM},
+     bibtex_show = {true},
+     author = {Kaushik Bhattacharya and Bamdad Hosseini and Nikola B Kovachki and Andrew M Stuart},
+     title = {Model {Reduction} {And} {Neural} {Networks} {For} {Parametric} {PDEs}},
+     journal = {The SMAI journal of computational mathematics},
+     pages = {121--157},
+     publisher = {Soci\'et\'e de Math\'ematiques Appliqu\'ees et Industrielles},
+     volume = {7},
+     year = {2021},     
+     html = {https://smai-jcm.centre-mersenne.org/articles/10.5802/smai-jcm.74/},
+     abstract = {We develop a general framework for data-driven approximation of input-output maps between infinite-dimensional spaces. The proposed approach is motivated by the recent successes of neural networks and deep learning, in combination with ideas from model reduction. This combination results in a neural network approximation which, in principle, is defined on infinite-dimensional spaces and, in practice, is robust to the dimension of finite-dimensional approximations of these spaces required for computation. For a class of input-output maps, and suitably chosen probability measures on the inputs, we prove convergence of the proposed approximation methodology. We also include numerical experiments which demonstrate the effectiveness of the method, showing convergence and robustness of the approximation scheme with respect to the size of the discretization, and compare it with existing algorithms from the literature; our examples include the mapping from coefficient to solution in a divergence form elliptic partial differential equation (PDE) problem, and the solution operator for viscous Burgers’ equation.},
+     pdf = {https://smai-jcm.centre-mersenne.org/item/10.5802/smai-jcm.74.pdf}
+}
+
+@article{li2020neural,
+  abbr = {arXiv},
+  bibtex_show = {true},
+  author    = {Zongyi Li and
+               Nikola B Kovachki and
+               Kamyar Azizzadenesheli and
+               Burigede Liu and
+               Kaushik Bhattacharya and
+               Andrew M Stuart and
+               Anima Anandkumar},
+  title     = {Neural Operator: Graph Kernel Network for Partial Differential Equations},
+  journal   = {CoRR},
+  volume    = {abs/2003.03485},
+  year      = {2020},
+  html       = {https://arxiv.org/abs/2003.03485},
+  eprinttype = {arXiv},
+  eprint    = {2003.03485},
+  abstract = {The classical development of neural networks has been primarily for mappings between a finite-dimensional Euclidean space and a set of classes, or between two finite-dimensional Euclidean spaces. The purpose of this work is to generalize neural networks so that they can learn mappings between infinite-dimensional spaces (operators). The key innovation in our work is that a single set of network parameters, within a carefully designed network architecture, may be used to describe mappings between infinite-dimensional spaces and between different finite-dimensional approximations of those spaces. We formulate approximation of the infinite-dimensional mapping by composing nonlinear activation functions and a class of integral operators. The kernel integration is computed by message passing on graph networks. This approach has substantial practical consequences which we will illustrate in the context of mappings between input data to partial differential equations (PDEs) and their solutions. In this context, such learned networks can generalize among different approximation methods for the PDE (such as finite difference or finite element methods) and among approximations corresponding to different underlying levels of resolution and discretization. Experiments confirm that the proposed graph kernel network does have the desired properties and show competitive performance compared to the state of the art solvers.},
+  pdf = {https://arxiv.org/pdf/2003.03485.pdf}
+}
+
+
+@article{kovachki2021continuous,
+  abbr = {JMLR},
+  bibtex_show = {true},
+  author  = {Kovachki, Nikola B and Stuart, Andrew M},
+  title   = {Continuous Time Analysis of Momentum Methods},
+  journal = {Journal of Machine Learning Research},
+  year    = {2021},
+  volume  = {22},
+  number  = {17},
+  pages   = {1-40},
+  html    = {https://www.jmlr.org/papers/v22/19-466.html},
+  pdf     = {https://www.jmlr.org/papers/volume22/19-466/19-466.pdf},
+  abstract = {Gradient descent-based optimization methods underpin the parameter training of neural networks, and hence comprise a significant component in the impressive test results found in a number of applications. Introducing stochasticity is key to their success in practical problems, and there is some understanding of the role of stochastic gradient descent in this context. Momentum modifications of gradient descent such as Polyak's Heavy Ball method (HB) and Nesterov's method of accelerated gradients (NAG), are also widely adopted. In this work our focus is on understanding the role of momentum in the training of neural networks, concentrating on the common situation in which the momentum contribution is fixed at each step of the algorithm. To expose the ideas simply we work in the deterministic setting. Our approach is to derive continuous time approximations of the discrete algorithms; these continuous time approximations provide insights into the mechanisms at play within the discrete algorithms. We prove three such approximations. Firstly we show that standard implementations of fixed momentum methods approximate a time-rescaled gradient descent flow, asymptotically as the learning rate shrinks to zero; this result does not distinguish momentum methods from pure gradient descent, in the limit of vanishing learning rate. We then proceed to prove two results aimed at understanding the observed practical advantages of fixed momentum methods over gradient descent, when implemented in the non-asymptotic regime with fixed small, but non-zero, learning rate. We achieve this by proving approximations to continuous time limits in which the small but fixed learning rate appears as a parameter; this is known as the method of modified equations in the numerical analysis literature, recently rediscovered as the high resolution ODE approximation in the machine learning context. In our second result we show that the momentum method is approximated by a continuous time gradient flow, with an additional momentum-dependent second order time-derivative correction, proportional to the learning rate; this may be used to explain the stabilizing effect of momentum algorithms in their transient phase. Furthermore in a third result we show that the momentum methods admit an exponentially attractive invariant manifold on which the dynamics reduces, approximately, to a gradient flow with respect to a modified loss function, equal to the original loss function plus a small perturbation proportional to the learning rate; this small correction provides convexification of the loss function and encodes additional robustness present in momentum methods, beyond the transient phase.},
+  selected={true}
+}
+
+@article{cheng2019regression,
+abbr = {JCTC},
+bibtex_show = {true},
+author = {Cheng, Lixue and Kovachki, Nikola B and Welborn, Matthew and Miller, Thomas F},
+title = {Regression Clustering for Improved Accuracy and Training Costs with Molecular-Orbital-Based Machine Learning},
+journal = {Journal of Chemical Theory and Computation},
+volume = {15},
+number = {12},
+pages = {6668-6677},
+year = {2019},
+abstract = { Machine learning (ML) in the representation of molecular-orbital-based (MOB) features has been shown to be an accurate and transferable approach to the prediction of post-Hartree–Fock correlation energies. Previous applications of MOB-ML employed Gaussian Process Regression (GPR), which provides good prediction accuracy with small training sets; however, the cost of GPR training scales cubically with the amount of data and becomes a computational bottleneck for large training sets. In the current work, we address this problem by introducing a clustering/regression/classification implementation of MOB-ML. In the first step, regression clustering (RC) is used to partition the training data to best fit an ensemble of linear regression (LR) models; in the second step, each cluster is regressed independently, using either LR or GPR; and in the third step, a random forest classifier (RFC) is trained for the prediction of cluster assignments based on MOB feature values. Upon inspection, RC is found to recapitulate chemically intuitive groupings of the frontier molecular orbitals, and the combined RC/LR/RFC and RC/GPR/RFC implementations of MOB-ML are found to provide good prediction accuracy with greatly reduced wall-clock training times. For a data set of thermalized (350 K) geometries of 7211 organic molecules of up to seven heavy atoms (QM7b-T), both RC/LR/RFC and RC/GPR/RFC reach chemical accuracy (1 kcal/mol prediction error) with only 300 training molecules, while providing 35000-fold and 4500-fold reductions in the wall-clock training time, respectively, compared to MOB-ML without clustering. The resulting models are also demonstrated to retain transferability for the prediction of large-molecule energies with only small-molecule training data. Finally, it is shown that capping the number of training data points per cluster leads to further improvements in prediction accuracy with negligible increases in wall-clock training time. },
+html = {https://pubs.acs.org/doi/abs/10.1021/acs.jctc.9b00884},
+pdf = {regression_clustering.pdf}
+}
+
+@article{kovachki2019ensemble,
+  abbr = {IP},
+  bibtex_show = {true},
+  year = {2019},
+  month = {aug},
+  publisher = {{IOP} Publishing},
+  volume = {35},
+  number = {9},
+  pages = {095005},
+  journal = {Inverse Problems},
+  author = {Nikola B Kovachki and Andrew M Stuart},
+  title = {Ensemble Kalman Inversion: a Derivative-free Technique for Machine Learning Tasks},
+  abstract = {The standard probabilistic perspective on machine learning gives rise to empirical risk-minimization tasks that are frequently solved by stochastic gradient descent (SGD) and variants thereof. We present a formulation of these tasks as classical inverse or filtering problems and, furthermore, we propose an efficient, gradient-free algorithm for finding a solution to these problems using ensemble Kalman inversion (EKI). The method is inherently parallelizable and is applicable to problems with non-differentiable loss functions, for which back-propagation is not possible. Applications of our approach include offline and online supervised learning with deep neural networks, as well as graph-based semi-supervised learning. The essence of the EKI procedure is an ensemble based approximate gradient descent in which derivatives are replaced by differences from within the ensemble. We suggest several modifications to the basic method, derived from empirically successful heuristics developed in the context of SGD. Numerical results demonstrate wide applicability and robustness of the proposed algorithm.},
+  html = {https://iopscience.iop.org/article/10.1088/1361-6420/ab1c3a},
+  pdf = {https://arxiv.org/pdf/1808.03620.pdf},
+  selected  = {true}
+}
+
+
+
+
+
+
+
+
