@@ -11,7 +11,7 @@ profile:
     <p>MC 305-16</p>
     <p>1200 E. California Blvd.</p>
     <p>Pasadena, CA 91125</p>
-    <p style="font-size:80%;">nkovachki at caltech dot edu</p>
+    <p style="font-size:80%;">nkovachki (at) caltech (dot) edu</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
