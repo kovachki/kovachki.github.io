@@ -2,10 +2,30 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: I have been a teaching assistant at Caltech for the following courses.
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+Clustering and Classification on Graphs (ACM 270-2). Winter term 2020.
 
-Organize your courses by years, topics, or universities, however you like!
+<ul>
+<li>Introduction to spectral clustering algorithms via graph Laplacian analysis.</li>
+</ul>
+
+Linear Analysis with Applications (CMS/ACM/IDS 107). Fall terms 2017, 2018, 2019.
+
+<ul>
+<li>Introduction to the analysis of linear operators on Banach and Hilbert spaces.</li>
+</ul>
+
+Introduction to Probability Models (ACM/EE 116). Winter term 2016.
+
+<ul>
+<li>Introduction to the basic concepts of probability from random variables and expectation to martingales.</li>
+</ul>
+
+Technical Seminar Presentations (E 10). Spring term 2016.
+
+<ul>
+<li>Basic techniques for giving effective presentation to technical and non-technical audiences.</li>
+</ul>

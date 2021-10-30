@@ -6,7 +6,7 @@ description: <a href="https://www.cms.caltech.edu/">California Institute of Tech
 
 profile:
   align: right
-  image: prof_pic.jpeg
+  image: prof_pic.jpg
   address: >
     <p>MC 305-16</p>
     <p>1200 E. California Blvd.</p>
@@ -24,7 +24,9 @@ Prof. <a href="https://mechmat.caltech.edu/">Kaushik Bhattacharya</a>, Prof. <a 
 Prof. <a href="https://uqgroup.mit.edu/">Youssef Marzouk</a>, Prof. <a href="https://millergroup.caltech.edu/Miller_Group/Home.html">Tom Miller</a>, and Prof. <a href="https://math.ethz.ch/sam/the-institute/people/siddhartha-mishra.html">Siddhartha Mishra</a>. I am originally from 
  Sofia, Bulgaria but have lived in the US since 2005 (Atlanta &rarr; LA). I received a B.Sc. in mathematics from Caltech in 2016. I am a recipient of the 
  2020 <a href="https://www.cms.caltech.edu/academics/honors#amazon">Amazon AI4Science Fellowship</a> which recognizes the outstanding work of graduate students
- in machine learning that impacts other scientific fields.
+ in machine learning that impacts other scientific fields. My work has been written about in popular science magazines:
+ <a href="https://www.technologyreview.com/2020/10/30/1011435/ai-fourier-neural-network-cracks-navier-stokes-and-partial-differential-equations/">MIT Technology Review</a>, 
+ <a href="https://www.quantamagazine.org/latest-neural-nets-solve-worlds-hardest-equations-faster-than-ever-before-20210419/">Quanta Magazine</a>. 
 
 My broader interest include anything mathematically beautiful or machine learning related.
 In particular, I am excited about the <a href="https://arxiv.org/pdf/2012.14501.pdf">approximation theory</a> of neural networks, the
@@ -41,6 +43,6 @@ I've also recently become an avid runner. Indoors, I love experimenting
 with new cooking techniques (recently fermentation), experiencing all forms of 
 art and music and badly attempting to create my own, and exploring LA for 
 new food and coffee. Last but certainly not least, I love spending time 
-with my amazing dog.
+with my <a href="/assets/img/nik_shushi.jpg" target="_blank">amazing dog.</a>
 
- <i>I am currently on the job market!</i> Please find my <a href="">CV</a> and contact me if you think I'd be a good fit for your team.
+ <i>I am currently on the job market!</i> Please find my <a href="/assets/pdf/kovachki_cv.pdf" target="_blank">CV</a> and contact me if you think I'd be a good fit for your team.
