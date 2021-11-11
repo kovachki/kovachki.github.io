@@ -1,6 +1,32 @@
 ---
 ---
 
+@article{li2021physicsinformed,
+  abbr = {arXiv},
+  bibtex_show = {true},
+  title={Physics-Informed Neural Operator for Learning Partial Differential Equations},
+  author={Zongyi Li and Hongkai Zheng and Nikola B Kovachki and David Jin and Haoxuan Chen and Burigede Liu and Kamyar Azizzadenesheli and Anima Anandkumar},
+  journal={CoRR},
+  volume = {abs/2111.03794},
+  year={2021},
+  html={https://arxiv.org/abs/2111.03794},
+  pdf={https://arxiv.org/pdf/2111.03794.pdf},
+  abstract = {Machine learning methods have recently shown promise in solving partial differential equations (PDEs). They can be classified into two broad categories: approximating the solution function and learning the solution operator. The Physics-Informed Neural Network (PINN) is an example of the former while the Fourier neural operator (FNO) is an example of the latter. Both these approaches have shortcomings. The optimization in PINN is challenging and prone to failure, especially on multi-scale dynamic systems. FNO does not suffer from this optimization issue since it carries out supervised learning on a given dataset, but obtaining such data may be too expensive or infeasible. In this work, we propose the physics-informed neural operator (PINO), where we combine the operating-learning and function-optimization frameworks. This integrated approach improves convergence rates and accuracy over both PINN and FNO models. In the operator-learning phase, PINO learns the solution operator over multiple instances of the parametric PDE family. In the test-time optimization phase, PINO optimizes the pre-trained operator ansatz for the querying instance of the PDE. Experiments show PINO outperforms previous ML methods on many popular PDE families while retaining the extraordinary speed-up of FNO compared to solvers. In particular, PINO accurately solves challenging long temporal transient flows and Kolmogorov flows where other baseline ML methods fail to converge.}
+}
+
+@article{kovachki2021multiscale,
+  abbr = {MM},
+  bibtex_show = {true},
+  title={Multiscale Modeling of Materials: Computing, Data Science, Uncertainty and Goal-oriented Optimization},
+  author={Kovachki, Nikola B and Liu, Burigede and Sun, Xingsheng and Zhou, Hao and Bhattacharya, Kaushik and Ortiz, Michael and Stuart, Andrew M},
+  journal={Accepted: Mechanics of Materials},
+  volume = {abs/2104.05918},
+  year={2022},
+  html={https://arxiv.org/abs/2104.05918},
+  pdf={https://arxiv.org/pdf/2104.05918.pdf},
+  abstract={The recent decades have seen various attempts at accelerating the process of developing materials targeted towards specific applications. The performance required for a particular application leads to the choice of a particular material system whose properties are optimized by manipulating its underlying microstructure through processing. The specific configuration of the structure is then designed by characterizing the material in detail, and using this characterization along with physical principles in system level simulations and optimization. These have been advanced by multiscale modeling of materials, high-throughput experimentations, materials data-bases, topology optimization and other ideas. Still, developing materials for extreme applications involving large deformation, high strain rates and high temperatures remains a challenge. This article reviews a number of recent methods that advance the goal of designing materials targeted by specific applications.}
+}
+
 @article{liu2022alearningbased,
 abbr = {JMPS},
 bibtex_show = {true},
@@ -69,18 +95,6 @@ abstract = {The macroscopic properties of materials that we observe and exploit 
   abstract={Fourier neural operators (FNOs) have recently been proposed as an effective framework for learning operators that map between infinite-dimensional spaces. We prove that FNOs are universal, in the sense that they can approximate any continuous operator to desired accuracy. Moreover, we suggest a mechanism by which FNOs can approximate operators associated with PDEs efficiently. Explicit error bounds are derived to show that the size of the FNO, approximating operators associated with a Darcy type elliptic PDE and with the incompressible Navier-Stokes equations of fluid dynamics, only increases sub (log)-linearly in terms of the reciprocal of the error. Thus, FNOs are shown to efficiently approximate operators arising in a large class of PDEs.}
 }
 
-@article{kovachki2021multiscale,
-  abbr = {arXiv},
-  bibtex_show = {true},
-  title={Multiscale Modeling of Materials: Computing, Data Science, Uncertainty and Goal-oriented Optimization},
-  author={Kovachki, Nikola B and Liu, Burigede and Sun, Xingsheng and Zhou, Hao and Bhattacharya, Kaushik and Ortiz, Michael and Stuart, Andrew M},
-  journal={CoRR},
-  volume = {abs/2104.05918},
-  year={2021},
-  html={https://arxiv.org/abs/2104.05918},
-  pdf={https://arxiv.org/pdf/2104.05918.pdf},
-  abstract={The recent decades have seen various attempts at accelerating the process of developing materials targeted towards specific applications. The performance required for a particular application leads to the choice of a particular material system whose properties are optimized by manipulating its underlying microstructure through processing. The specific configuration of the structure is then designed by characterizing the material in detail, and using this characterization along with physical principles in system level simulations and optimization. These have been advanced by multiscale modeling of materials, high-throughput experimentations, materials data-bases, topology optimization and other ideas. Still, developing materials for extreme applications involving large deformation, high strain rates and high temperatures remains a challenge. This article reviews a number of recent methods that advance the goal of designing materials targeted by specific applications.}
-}
 
 @article{kovachki2020conditional,
   abbr = {arXiv},

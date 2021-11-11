@@ -9,6 +9,7 @@ nav: true
 <h3>Deep Learning in Function Spaces <small>[<a href="/assets/pdf/kovachki_ini21.pdf" target="_blank">slides</a>]</small></h3> 
 
 <ul>
+<li>Rough Paths Interest Group at the Alan Turing Institute (<a href="https://www.turing.ac.uk/research/interest-groups/rough-paths-machine-learning-sequential-data">invited group talk</a>). November 2021.</li>
 <li>Deep Learning and Inverse Problems (<a href="https://www.newton.ac.uk/event/mdlw02/" target="_blank">INI MDLW02</a>). September 2021.</li>
 <li>Computation and Learning in High Dimensions (<a href="https://owpdb.mfo.de/show_workshop?id=3612" target="_blank">MFO</a>). August 2021.</li>
 <li>Foundations of Bayesian Inference for Complex Statistical Models (<a href="https://publications.mfo.de/bitstream/handle/mfo/3869/OWR_2021_22.pdf?sequence=-1&isAllowed=y" target="_blank">MFO</a>). May 2021.</li>
