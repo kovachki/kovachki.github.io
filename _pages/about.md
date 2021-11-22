@@ -26,7 +26,8 @@ Prof. <a href="https://uqgroup.mit.edu/">Youssef Marzouk</a>, Prof. <a href="htt
  2020 <a href="https://www.cms.caltech.edu/academics/honors#amazon">Amazon AI4Science Fellowship</a> which recognizes the outstanding work of graduate students
  in machine learning that impacts other scientific fields. My work has been written about in popular science magazines:
  <a href="https://www.technologyreview.com/2020/10/30/1011435/ai-fourier-neural-network-cracks-navier-stokes-and-partial-differential-equations/">MIT Technology Review</a>, 
- <a href="https://www.quantamagazine.org/latest-neural-nets-solve-worlds-hardest-equations-faster-than-ever-before-20210419/">Quanta Magazine</a>. 
+ <a href="https://www.quantamagazine.org/latest-neural-nets-solve-worlds-hardest-equations-faster-than-ever-before-20210419/">Quanta Magazine</a>, 
+ and was recently highlighted in NVIDIA CEO Jensen Huang's GTC 2021  <a href="https://youtu.be/jhDiaUL_RaM?t=2472">keynote address</a>. 
 
 My broader interest include anything mathematically beautiful or machine learning related.
 In particular, I am excited about the <a href="https://arxiv.org/pdf/2012.14501.pdf">approximation theory</a> of neural networks, the

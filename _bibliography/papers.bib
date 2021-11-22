@@ -14,6 +14,18 @@
   abstract = {Machine learning methods have recently shown promise in solving partial differential equations (PDEs). They can be classified into two broad categories: approximating the solution function and learning the solution operator. The Physics-Informed Neural Network (PINN) is an example of the former while the Fourier neural operator (FNO) is an example of the latter. Both these approaches have shortcomings. The optimization in PINN is challenging and prone to failure, especially on multi-scale dynamic systems. FNO does not suffer from this optimization issue since it carries out supervised learning on a given dataset, but obtaining such data may be too expensive or infeasible. In this work, we propose the physics-informed neural operator (PINO), where we combine the operating-learning and function-optimization frameworks. This integrated approach improves convergence rates and accuracy over both PINN and FNO models. In the operator-learning phase, PINO learns the solution operator over multiple instances of the parametric PDE family. In the test-time optimization phase, PINO optimizes the pre-trained operator ansatz for the querying instance of the PDE. Experiments show PINO outperforms previous ML methods on many popular PDE families while retaining the extraordinary speed-up of FNO compared to solvers. In particular, PINO accurately solves challenging long temporal transient flows and Kolmogorov flows where other baseline ML methods fail to converge.}
 }
 
+@article{kovachki2021universal,
+  abbr = {JMLR},
+  bibtex_show = {true},
+  title={On Universal Approximation and Error Bounds for Fourier Neural Operators},
+  author={Kovachki, Nikola B and Lanthaler, Samuel and Mishra, Siddhartha},
+  journal={Accepted: Journal of Machine Learning Research},
+  year={2022},
+  html={https://arxiv.org/abs/2107.07562},
+  pdf={https://arxiv.org/pdf/2107.07562.pdf},
+  abstract={Fourier neural operators (FNOs) have recently been proposed as an effective framework for learning operators that map between infinite-dimensional spaces. We prove that FNOs are universal, in the sense that they can approximate any continuous operator to desired accuracy. Moreover, we suggest a mechanism by which FNOs can approximate operators associated with PDEs efficiently. Explicit error bounds are derived to show that the size of the FNO, approximating operators associated with a Darcy type elliptic PDE and with the incompressible Navier-Stokes equations of fluid dynamics, only increases sub (log)-linearly in terms of the reciprocal of the error. Thus, FNOs are shown to efficiently approximate operators arising in a large class of PDEs.}
+}
+
 @article{kovachki2021multiscale,
   abbr = {MM},
   bibtex_show = {true},
@@ -82,18 +94,6 @@ abstract = {The macroscopic properties of materials that we observe and exploit 
   abstract={Chaotic systems are notoriously challenging to predict because of their instability. Small errors accumulate in the simulation of each time step, resulting in completely different trajectories. However, the trajectories of many prominent chaotic systems live in a low-dimensional subspace (attractor). If the system is Markovian, the attractor is uniquely determined by the Markov operator that maps the evolution of infinitesimal time steps. This makes it possible to predict the behavior of the chaotic system by learning the Markov operator even if we cannot predict the exact trajectory. Recently, a new framework for learning resolution-invariant solution operators for PDEs was proposed, known as neural operators. In this work, we train a Markov neural operator (MNO) with only the local one-step evolution information. We then compose the learned operator to obtain the global attractor and invariant measure. Such a Markov neural operator forms a discrete semigroup and we empirically observe that does not collapse or blow up. Experiments show neural operators are more accurate and stable compared to previous methods on chaotic systems such as the Kuramoto-Sivashinsky and Navier-Stokes equations.}
 }
 
-@article{kovachki2021universal,
-  abbr = {arXiv},
-  bibtex_show = {true},
-  title={On Universal Approximation and Error Bounds for Fourier Neural Operators},
-  author={Kovachki, Nikola B and Lanthaler, Samuel and Mishra, Siddhartha},
-  journal={CoRR},
-  volume = {abs/2107.07562},
-  year={2021},
-  html={https://arxiv.org/abs/2107.07562},
-  pdf={https://arxiv.org/pdf/2107.07562.pdf},
-  abstract={Fourier neural operators (FNOs) have recently been proposed as an effective framework for learning operators that map between infinite-dimensional spaces. We prove that FNOs are universal, in the sense that they can approximate any continuous operator to desired accuracy. Moreover, we suggest a mechanism by which FNOs can approximate operators associated with PDEs efficiently. Explicit error bounds are derived to show that the size of the FNO, approximating operators associated with a Darcy type elliptic PDE and with the incompressible Navier-Stokes equations of fluid dynamics, only increases sub (log)-linearly in terms of the reciprocal of the error. Thus, FNOs are shown to efficiently approximate operators arising in a large class of PDEs.}
-}
 
 
 @article{kovachki2020conditional,

@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Publications by categories in reversed chronological order.
+description: Publications in reversed chronological order. Please feel free to contact me with questions about any of these works.
 years: [2022, 2021, 2020, 2019]
 nav: true
 ---
