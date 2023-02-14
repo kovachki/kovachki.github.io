@@ -2,23 +2,35 @@
 layout: about
 title: about
 permalink: /
-description: <a href="https://www.cms.caltech.edu/">California Institute of Technology</a>
+description: <a href="https://www.nvidia.com/en-us/research/">NVIDIA</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>MC 305-16</p>
-    <p>1200 E. California Blvd.</p>
-    <p>Pasadena, CA 91125</p>
-    <p style="font-size:80%;">nkovachki (at) caltech (dot) edu</p>
+    <p>Los Angeles, CA</p>
+    <p style="font-size:80%;">nkovachki (at) nvidia (dot) com</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am currently a final-year PhD student in applied mathematics at Caltech working on machine learning methods for the
-physical sciences in theory and practice. I work in collaboration with my advisor Prof. <a href="http://stuart.caltech.edu/">Andrew M. Stuart</a>
+I am research scientist at NVIDIA in the AI-Algorithms group working on machine learning methods for the
+physical sciences in theory and practice. I obtained my Ph.D. in applied mathematics 
+from Caltech in 2022 under the supervision of Prof. <a href="http://stuart.caltech.edu/">Andrew M. Stuart</a>.
+Previously, I received a B.Sc. in mathematics from Caltech in 2016. I am a recipient of the 
+2020 <a href="https://www.cms.caltech.edu/academics/honors#amazon">Amazon AI4Science Fellowship</a>,
+and some of my work has been featured in popular science magazines:
+ <a href="https://www.technologyreview.com/2020/10/30/1011435/ai-fourier-neural-network-cracks-navier-stokes-and-partial-differential-equations/">MIT Technology Review</a>, 
+ <a href="https://www.quantamagazine.org/latest-neural-nets-solve-worlds-hardest-equations-faster-than-ever-before-20210419/">Quanta Magazine</a>.
+
+My research interest lie at the intersection of approximation theory, numerical analysis, and machine learning.
+Particularly, I work on the design and analysis of efficient approximation methods for forwards and inverse problems
+in PDEs, measure transport methods for sampling in high dimensions, and the blending of data and physics into machine 
+learning models. I am also interested in the development of uncertainty quantification techniques for deep learning. 
+
+<!--
+I work in collaboration with my advisor Prof. <a href="http://stuart.caltech.edu/">Andrew M. Stuart</a>
 and have also collaborated with various experts in the fields of machine learning and physical modeling including Prof. <a href="http://tensorlab.cms.caltech.edu/users/anima/">Anima Anandkumar</a>,
 Prof. <a href="https://mechmat.caltech.edu/">Kaushik Bhattacharya</a>, Prof. <a href="https://maartendehoop.rice.edu/">Maarten V. de Hoop</a>, 
 Prof. <a href="https://uqgroup.mit.edu/">Youssef Marzouk</a>, Prof. <a href="https://millergroup.caltech.edu/Miller_Group/Home.html">Tom Miller</a>, and Prof. <a href="https://math.ethz.ch/sam/the-institute/people/siddhartha-mishra.html">Siddhartha Mishra</a>. I am originally from 
@@ -47,3 +59,4 @@ new food and coffee. Last but certainly not least, I love spending time
 with my <a href="/assets/img/nik_shushi.jpg" target="_blank">amazing dog.</a>
 
  <i>I am currently on the job market!</i> Please find my <a href="/assets/pdf/kovachki_cv.pdf" target="_blank">CV</a> and contact me if you think I'd be a good fit for your team.
+-->
