@@ -1,9 +1,0 @@
----
-layout: page
-permalink: /CV/
-title: CV
-description: 
-nav: true
----
-
-Please download my curriculum vitae <a href="/assets/pdf/kovachki_cv.pdf" target="_blank">here.</a> 
