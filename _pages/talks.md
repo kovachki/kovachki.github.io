@@ -6,9 +6,17 @@ description: Talks I have given at conferences, workshops, and coorporate venues
 nav: true
 ---
 
+<h3>Score-Based Diffusion Models in Infinite Dimensions <small>[<a href="/assets/pdf/kovachki_iciam2023.pdf" target="_blank">slides</a>]</small></h3> 
+
+<ul>
+<li>Biennial Meeting of SIAM Pacific Northwest Section (<a href='https://sites.google.com/view/siampnw23/'>PNW</a>). October 2023.</li>
+<li>International Congress on Industrial and Applied Mathematics (<a href='https://iciam2023.org/'>ICIAM</a>). August 2023.</li>
+</ul>
+
 <h3>Deep Learning in Function Spaces <small>[<a href="/assets/pdf/kovachki_ini21.pdf" target="_blank">slides</a>]</small></h3> 
 
 <ul>
+<li>International Conference on Scientific Computation and Differential Equations (<a href='https://scicade2021.hi.is/'>SciCADE</a>). July 2022.</li>
 <li>Rough Paths Interest Group at the Alan Turing Institute (<a href="https://www.turing.ac.uk/research/interest-groups/rough-paths-machine-learning-sequential-data">invited group talk</a>). November 2021.</li>
 <li>Deep Learning and Inverse Problems (<a href="https://www.newton.ac.uk/event/mdlw02/" target="_blank">INI MDLW02</a>). September 2021.</li>
 <li>Computation and Learning in High Dimensions (<a href="https://owpdb.mfo.de/show_workshop?id=3612" target="_blank">MFO</a>). August 2021.</li>

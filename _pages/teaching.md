@@ -2,9 +2,19 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: I have been a teaching assistant at Caltech for the following courses.
+description: I have been an instructor and teaching assistant at Caltech in multiple courses.
 nav: true
 ---
+
+<h3>Instructor</h3>
+
+Approximation Theory and Neural Networks (ACM 270-1). Fall term 2023.
+
+<ul>
+<li>Classical approximation theory and modern developments in neural networks. Co-tought with <a href='https://slanthaler.github.io/'>Samuel Lanthaler</a>.</li>
+</ul>
+
+<h3>Teaching Assistant</h3>
 
 Clustering and Classification on Graphs (ACM 270-2). Winter term 2020.
 

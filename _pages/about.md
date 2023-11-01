@@ -15,8 +15,8 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am research scientist at NVIDIA in the AI-Algorithms group working on machine learning methods for the
-physical sciences in theory and practice. I obtained my Ph.D. in applied mathematics 
+I am research scientist at NVIDIA Research (NVR) working on machine learning methods for the
+physical sciences in theory and practice. I obtained my Ph.D. in applied and computational mathematics 
 from Caltech in 2022 under the supervision of Prof. <a href="http://stuart.caltech.edu/">Andrew M. Stuart</a>.
 Previously, I received a B.Sc. in mathematics from Caltech in 2016. I am a recipient of the 
 2020 <a href="https://www.cms.caltech.edu/academics/honors#amazon">Amazon AI4Science Fellowship</a>,
@@ -27,7 +27,7 @@ and some of my work has been featured in popular science magazines:
 My research interest lie at the intersection of approximation theory, numerical analysis, and machine learning.
 Particularly, I work on the design and analysis of efficient approximation methods for forwards and inverse problems
 in PDEs, measure transport methods for sampling in high dimensions, and the blending of data and physics into machine 
-learning models. I am also interested in the development of uncertainty quantification techniques for deep learning. 
+learning models.
 
 <!--
 I work in collaboration with my advisor Prof. <a href="http://stuart.caltech.edu/">Andrew M. Stuart</a>
