@@ -14,7 +14,7 @@ a:hover, summary:hover { color: #5b2387; }
 a:focus-visible, summary:focus-visible { outline: 2px solid #3159a7; outline-offset: 4px; }
 
 .profile { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 30px; align-items: start; }
-.portrait { display: block; width: 310px; height: 276px; object-fit: cover; object-position: 50% 53%; }
+.portrait { display: block; width: 320px; height: 285px; object-fit: cover; object-position: 50% 53%; }
 h1 { font-size: 32px; line-height: 1.18; margin: -4px 0 20px; }
 .affiliation { margin: 0 0 18px; }
 .affiliation:last-child { margin-bottom: 0; }
